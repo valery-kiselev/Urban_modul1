@@ -1,0 +1,7 @@
+my_string = input('Введите Ваш возраст прописью: ')
+print('количество символов введённого текста: ',len(my_string))
+print('строка в верхнем регистре: ',my_string.upper())
+print('строка в нижнем регистре: ',my_string.lower())
+print('строка без пробелов: ',my_string.replace(' ',''))
+print('первый символ строки: ',my_string[0])
+print('последний символ строки: ',my_string[-1])
