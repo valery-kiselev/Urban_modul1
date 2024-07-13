@@ -5,6 +5,8 @@ print(my_dict['Иван'])
 print(my_dict.get('Кирил'))
 my_dict.update({'Евгений': 1997, 'Татьяна': 2001})
 print(my_dict)
+my_dict.pop('Евгений')
+print(my_dict)
 
 #2nd program
 my_set = {5, 3, 2, 2, 3, 4, 'string1', 'string2', True}
